@@ -1,0 +1,19 @@
+
+
+
+$pseudo : false
+
+@mixin name($pseudo,$x,$y)
+    width: 100%
+    padding-top: percentage(calc( $y / $x )*0.01)
+
+.totalform
+    background: red
+    @if $pseudo == true
+         color: black
+
+    @include name($pseudo,$x: 5,$y: 100)
+    
+
+
+ 

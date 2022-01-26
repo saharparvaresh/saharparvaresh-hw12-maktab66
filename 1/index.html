@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>sass</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<form class="totalform">
+		<label class="labelform" for="firstname">First Name</label>
+		<input class="iteminputform" type="text" placeholder="Your name..." id="firstname" required>
+		<label class="labelform" for="lastname">Last Name</label>
+		<input class="iteminputform" type="text" placeholder="Your last name..." id="lastname" required>
+		<label class="labelform" for="country">Country</label>
+		<select class="iteminputform" id="country">
+			<option value="Australia">Australia</option>
+			<option value="France">France</option>
+			<option value="Spania">Spania</option>
+			<option value="Canada">Canada</option>
+			<option value="Italia">Italia</option>
+		</select>
+		<label class="labelform" for="subject">Subject</label>
+		<textarea class="iteminputform" id="subject" placeholder="Write something..." rows="10"></textarea>
+		<input class="submitbtn" type="submit" value="Submit">
+	</form>
+	<div class="modal">
+		<div class="modalbox">
+			<p class="modaltxt">Your information was successfully registered!</p>
+		</div>
+	</div>
+</body>
+</html>
